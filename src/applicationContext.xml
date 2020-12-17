@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <bean id="zhao" class="com.spring.core.Person">
+        <property name="pid" value="1001"></property>
+        <property name="pname" value="zhao"></property>
+    </bean>
+    <bean id="qian" class="com.spring.core.Person">
+        <property name="pid" value="1002"></property>
+        <property name="pname" value="qian"></property>
+    </bean>
+    <bean id="sun" class="com.spring.core.Person">
+        <property name="pid" value="1003"></property>
+        <property name="pname" value="sun"></property>
+    </bean>
+    <bean id="hr" class="com.spring.core.Dept">
+        <property name="deptno" value="10"></property>
+        <property name="dname" value="董事长"></property>
+        <property name="loc" value="chendu"></property>
+    </bean>
+</beans>
